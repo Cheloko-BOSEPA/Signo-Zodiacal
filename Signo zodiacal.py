@@ -35,7 +35,9 @@ def signo():
         mensaje = "Tu signo zodiacal es Acuario."
     elif (20 <= dia <= 29 and mes==2) or (1 <= dia <= 20 and mes==3 ):
         mensaje = "Tu signo zodiacal es Piscis."
-    
+    else:
+        mensaje = 'Lo sentimos, \n los datos introducidos \n no son correctos'
+        
     e4.config(text=mensaje)
     
     
